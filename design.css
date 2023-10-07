@@ -1,0 +1,620 @@
+#body{
+    margin: 0px;
+}
+
+#navbar-personal-website{
+    width: 100%;
+    max-height: 65px;
+    display: flex;
+    list-style-type: none;
+    background-color: #F0F0F0; 
+}
+
+#menu-navbar{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    width: 100%;
+    margin-left: 80%;
+    padding-top: 7%;
+}
+
+.menu-halaman{
+    font-size: 16px;
+    font-family: 'karla', sans-serif;
+    font-weight: bold;
+}
+
+#menu-navbar a{
+    color: #0E545E;
+    text-decoration: none;
+}
+
+/*___________________________________________________________________________________________________*/
+
+#perkenalan-judul{
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    padding: 4%;
+    padding-left: 6%;
+    padding-top: 0%;
+    background-color: #F0F0F0; 
+}
+
+#judul h4{
+    font-family: 'karla', sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    color: #353535;
+}
+
+#judul h1{
+    font-family: 'karla', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 3vw;
+    color: #0E545E;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+#judul{
+    margin-top: 5%;
+    margin-bottom: 35px;
+}
+
+#perkenalan-judul img{
+    width: 40%; 
+    height: 41%;
+    margin-right: 60px;
+}
+
+#gabung-judul-indukicon{
+    margin-left: 6.5%;
+    margin-top: 2%;
+}
+
+#induk-icon{
+    display: flex; 
+    margin-left: 77%;
+    gap: 15px;
+}
+
+#induk-icon img{
+    height: 37%;
+    width: 36%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*___________________________________________________________________________________________________*/
+
+#about{
+    display: flex;
+    gap: 4em;
+    height: 100%;
+    padding-top: 4.8%;
+    padding-bottom: 5%;
+    background-color: #F0F0F0; 
+}
+
+#deskripsi-singkat{
+    width: 74%;
+    height: 28%;
+    text-align: justify;
+    font-family: 'verdana', sans-serif;
+    font-size: 1.14vw;
+    font-weight: normal;
+    color: #353535;
+}
+
+#deskripsi-singkat h3{
+    color: #0E545E;
+}
+
+#deskripsi-about{
+    padding: 2px;
+    height: 100%;
+
+}
+
+#deskripsi-about h5{
+    font-family: 'verdana', sans-serif;
+    font-size: 1.14vw;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: 0E545E;
+}
+
+#deskripsi-about ul{
+    display: flex;
+    gap: 6%;
+    font-size: 1.14vw;
+    font-family: 'verdana', sans-serif;
+    color: #353535;
+}
+
+/*_________________*/
+
+#bawah-foto img{
+    width: 60%; 
+    height: 60%;
+    margin-left: 22%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+}
+
+#bawah-foto{
+    height: 100%;
+    width: 100%;
+    margin-left: 10%;
+}
+
+#bawah-foto h5{
+    margin-left: 4%;
+    font-family: 'verdana', sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 3.5px;
+    color: #0E545E;
+}
+
+#bawah-foto ul li{
+    font-family: 'verdana', sans-serif;
+    font-size: 1.1vw;
+    margin-left: 12%;
+    color: #353535;
+}
+
+#bawah-foto h6{
+    margin-left: 11.8%;
+    font-family: 'verdana', sans-serif;
+    font-size: 0.9vw;
+    margin-top: 1.6%;
+    padding-bottom: 8%;
+    color: #353535;
+}
+/*_________________*/
+
+#skill-ui{
+    width: 50%;
+}
+
+#skill-ui h6{
+    font-family: 'verdana', sans-serif;
+    margin: 0px;
+    width: 85%;
+    font-size: 1vw;
+    color: #353535;
+}
+
+#skill-ui img{
+    width: 85%;
+    height: 16%;
+    margin: 0px;
+    border: none;
+}
+/*_________________*/
+
+#skill-html{
+    width: 50%;
+}
+
+#skill-html h6{
+    font-family: 'verdana', sans-serif;
+    margin: 0px;
+    width: 85%;
+    font-size: 1vw;
+    color: #353535;
+}
+
+#skill-html img{
+    width: 85%;
+    height: 16%;
+    margin: 0px;
+    border: none;
+}
+
+/*_________________*/
+
+#skill-css{
+    width: 50%;
+}
+
+#skill-css h6{
+    font-family: 'verdana', sans-serif;
+    margin: 0px;
+    width: 85%;
+    font-size: 1vw;
+    color: #353535;
+}
+
+#skill-css img{
+    width: 85%;
+    height: 16%;
+    margin:0px;
+    border: none;
+}
+
+/*_________________*/
+
+#skill-js{
+    width: 50%;
+}
+
+#skill-js h6{
+    margin: 0px;
+    width: 85%;
+    font-size: 1vw;
+    font-family: 'verdana', sans-serif;
+    color: #353535;
+}
+
+#skill-js img{
+    width: 85%;
+    height: 16%;
+    margin:0px;
+    border: none;
+}
+
+/*___________________________________________________________________________________________________*/
+
+#ui-ux-design{
+    display: flex;
+    gap: 12px;
+    padding-left: 6%;
+    padding-right: 8.5%;
+    padding-top: 11.8px;
+    padding-bottom: 11.8px;
+    background-color: #F0F0F0; 
+}
+
+#ui-ux-design a{
+    text-decoration: none;
+}
+
+#judul-portfolio{
+    border-right: 3px black solid;
+    border-color: #0E545E;
+    width: 35%;
+    font-size: 1.2vw;
+    font-family: 'karla', sans-serif;
+    padding-bottom: 11em;
+    color: #353535;
+}
+
+#judul-portfolio h3{
+    color: #0E545E;
+}
+
+#ui-ux-design h5{
+    font-size: 1.2vw;
+    font-family: 'karla', sans-serif;
+}
+
+
+#mitra-pengalaman h3{
+    font-size: 1.4vw;
+    font-family: 'karla', sans-serif;
+    margin-bottom: 0px;
+    color: #0E545E;
+}
+
+#mitra-pengalaman p{
+    font-size: 1.2vw;
+    font-family: 'verdana', sans-serif;
+    margin-top: 4px;
+    width: 90%;
+    color: #353535;
+    font-weight: normal;
+}
+
+#mitra-pengalaman ul li{
+    margin-top: 6%;
+    margin-left: -20px;
+    margin-bottom: 2.5%;
+    font-size: 1.2vw;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #353535;
+}
+
+#mitra-pengalaman{
+    margin-left: 1.5em;
+}
+
+#nilai-ui{
+    color: #0E545E;
+}
+
+
+
+
+/*_________________*/
+
+
+#des-bilan img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transform: rotate(0.4deg);
+}
+
+
+#des-bilan{
+    width: 60%;
+    margin-left: 20px;
+    border: 2px black solid;
+    border-radius: 40px;
+    border-color: #0E545E;
+}
+
+#des-bilan h2{
+    font-size: 1.2vw;
+    font-family: 'karla', sans-serif;
+    padding-left: 4%;
+    color: #0E545E;
+}
+
+#des-bilan p{
+    font-size: 1.1vw;
+    font-family: 'verdana', sans-serif;
+    text-align: justify;
+    padding-left: 4%;
+}
+
+/*_________________*/
+
+
+#des-amartha img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#des-amartha{
+    width: 60%;
+    margin-left: 20px;
+    border: 2px black solid;
+    border-radius: 40px;
+    border-color: #0E545E;
+}
+
+#des-amartha h2{
+    font-size: 1.2vw;
+    font-family: 'karla', sans-serif;
+    padding-left: 4%;
+    color: #0E545E;
+}
+
+#des-amartha p{
+    font-size: 1.1vw;
+    font-family: 'verdana', sans-serif;
+    text-align: justify;
+    padding-left: 4%;
+}
+
+/*___________________________________________________________________________________________________*/
+
+#blog{
+    padding: 12%;
+    padding-top: 5%;
+    padding-left: 6%;
+    background-color: #F0F0F0;
+}
+
+#blog a{
+    text-decoration: none;
+}
+
+#blog h2{
+    color: #0E545E;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 1.5vw;
+    font-family: 'karla', sans-serif;
+}
+
+#blog-bilan{
+    border-radius: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    margin-bottom: 3%;
+    margin-right: 20%;
+    border: 0.5px black solid;
+    border-color: #0E545E;
+    background-image: url('Foto/bilan2.png');
+    background-position: center;
+    background-color:rgba(0, 0, 0, 1);
+}
+
+
+#des-blog-bilan{
+    width: 60%;
+    margin-left: 20px;
+    padding-top: 8px;
+    font-weight: normal;
+}
+
+#blog-bilan h2{
+    font-size: 1.2vw;
+    font-family: 'karla', sans-serif;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#blog-bilan p{
+    font-size: 1.1vw;
+    font-family: 'verdana', sans-serif;
+    text-align: justify;
+    margin-top: 0px;
+    color: white;
+}
+
+/*_________________*/
+
+#blog-amartha{
+    border-radius: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    margin-bottom: 3%;
+    margin-right: 20%;
+    border: 0.5px black solid;
+    border-color: #0E545E;
+    background-image: url('Foto/amartha2.png');
+    background-position: center;
+    background-color:rgba(0, 0, 0, 1);
+}
+
+#des-blog-amartha{
+    width: 60%;
+    margin-left: 20px;
+    padding-top: 6px;
+    font-weight: normal;
+}
+
+#blog-amartha h2{
+    font-size: 1.2vw;
+    font-family: 'karla', sans-serif;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#blog-amartha p{
+    font-size: 1.1vw;
+    font-family: 'verdana', sans-serif;
+    text-align: justify;
+    margin-top: 0px;
+    color: white;
+}
+
+ /*___________________________________________________________________________________________________*/
+
+.footer{ 
+    padding: 5px;
+    background-color: #0E545E;
+    display: flex;
+    gap: 30px;
+    height: 150px;
+}
+
+.logo-sosmed img{ 
+    width: 16%; 
+    height: 16%;
+}
+
+
+.logo-sosmed {
+    margin-left: 130px;
+}
+
+.footer-one{
+    margin-top: 2%;
+}
+
+.footer-one p {
+    margin-top: 1.5%;
+    margin-left: 50%;
+    font-family: 'Karla', light;
+    font-size: 1.2vw;
+    color: #F7FBFE;
+    width: 65%;
+}
+
+.footer-two, .footer-three {
+    margin-left: 20%;
+}
+
+.footer-two h4 {
+    margin-top: 15%;
+    margin-bottom: 8px;
+    font-family: 'Karla', light;
+    color: #F7FBFE;
+}
+
+.footer-two a{
+    text-decoration: none;
+    color: #F7FBFE;
+}
+
+.footer-two p {
+    text-decoration: none;
+    font-family: 'Karla', light;
+    font-size: 1.2vw;
+}
+
+.footer-three a{
+    text-decoration: none;
+    color: #F7FBFE;
+}
+
+.footer-three h4 {
+    font-family: 'Karla', light;
+    color: #F7FBFE;
+}
+
+.footer-three p {
+    font-family: 'Karla', light;
+    font-size: 16px;
+    color: #F7FBFE;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    #menu-navbar{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #perkenalan-judul img{
+        width: 25%;
+        height: 25%;
+    }
+    
+    /*___________________________________________________________________________________________________*/
+
+    #judul h4{
+        font-size: 2vw;
+    }
+    
+    #judul h1{
+        font-size: 3vw;
+    }
+
+    #judul{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #induk-icon{
+        padding-left: 54%;
+        margin-bottom: 20%;
+    }
+
+    #induk-icon img{
+        width: 24%; 
+        height: 24%;
+    }
+    
+    /*___________________________________________________________________________________*/
+    
+   
+
+
+}
+
